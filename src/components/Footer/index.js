@@ -1,9 +1,12 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Typewriter from 'typewriter-effect'
 import { Bio } from '../../data/constants';
+import { Span } from '../HeroSection/HeroStyle';
+import { TextLoop } from '../HeroSection/HeroStyle';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -88,7 +91,17 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Vigneshwaran</Logo>
+      <TextLoop>
+              <Span>
+                    <Typewriter
+                         options={{
+                                strings: Bio.name,
+                                autoStart: true,
+                                loop: true,
+                                  }}
+                                />
+                            </Span>
+                        </TextLoop>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -97,8 +110,8 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.facebook} target="display"><WhatsAppIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>

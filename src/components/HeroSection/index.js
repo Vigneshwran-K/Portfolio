@@ -4,6 +4,7 @@ import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, Hero
 import HeroImg from '../../images/photo.avif'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import { SubTitle1 } from './HeroStyle';
 
 const HeroSection = () => {
     return (
@@ -16,7 +17,6 @@ const HeroSection = () => {
                     <HeroLeftContainer id="Left">
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
-                            I am a
                             <Span>
                                 <Typewriter
                                     options={{
