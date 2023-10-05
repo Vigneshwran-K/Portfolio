@@ -81,8 +81,8 @@ const Image = styled.img`
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
-        height: 40px;
-    }
+    height: 40px;
+}
 `
 
 const Body = styled.div`
