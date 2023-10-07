@@ -347,6 +347,26 @@ export const projects = [
     github: "https://github.com/Vigneshwran-K/Housing_Board_Dashboard",
     webapp: "https://public.tableau.com/app/profile/vigneshwaran.k5509/viz/USAHousingDataDashboard/Dashboard1",
   },
+   {
+    id: 1,
+    title: "SuperStore Data Analysis",
+    date: "Oct 2023",
+    description:
+      "  Analyzed 2015-2018 data to identify top selling sub-categories, revenue drivers, customer trends, and yearly growth.Developed a deep understanding of the Superstore business and gained valuable experience in data analysis and visualization.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRhr9hB9-eyU_ZjXSOFOVSrUORIop8D2Nug&usqp=CAU",
+    tags: [
+      "Python",
+      "Data Cleaning",
+      "Pandas",
+      "Matplotlib",
+      "Plots & charts",
+      "Data Manipulation",
+    ],
+    category: "Python",
+    github: "https://github.com/Vigneshwran-K/Superstore_Analysis",
+    webapp: "https://github.com/Vigneshwran-K/Superstore_Analysis",
+  },
 ];
 
 export const TimeLineData = [
