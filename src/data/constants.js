@@ -3,6 +3,7 @@ export const Bio = {
   roles: [
     "Google Certified Data Analyst",
     "Tableau Developer",
+    "Data Scientist",
     
   ],
   description:
