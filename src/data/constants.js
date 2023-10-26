@@ -11,7 +11,7 @@ export const Bio = {
    
     
   github: "https://github.com/Vigneshwran-K",
-  resume:"https://drive.google.com/file/d/19iTuF7jldqtdHP-M6EPMxyDHEvedav6k/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1qJemrJlV9ChbDeJrb5CJQiGJMtsM0Q7-/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vigneshwaran-k-336b2223b/",
   twitter: "",
   insta: "https://instagram.com/___v.i.c.k.y_?igshid=OGQ5ZDc2ODk2ZA==",
