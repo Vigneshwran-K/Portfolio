@@ -122,27 +122,37 @@ export const skills = [
     ],
   },
   {
-    title: "Data Viz",
+    title: "Soft Skills",
     skills: [
       {
-        name: "Tableau",
+        name: "Collabrative",
         image:
-          "https://img.icons8.com/?size=96&id=9Kvi1p1F0tUo&format=png",
+          "https://img.icons8.com/?size=160&id=zWPYTTRwDJcu&format=png",
       },
       {
-        name: "Power BI",
+        name: "Communication",
         image:
-          "https://img.icons8.com/?size=96&id=3sGOUDo9nJ4k&format=png",
+          "https://img.icons8.com/?size=128&id=103792&format=png",
       },
       {
-        name: "Looker Studio",
+        name: "Active Listening",
         image:
-          "https://img.icons8.com/?size=96&id=86E4YHZQawQZ&format=png",
+          "https://img.icons8.com/?size=96&id=4PWXiMw8CV30&format=png",
       },
       {
-        name: "Pivot Tables",
+        name: "Critical Thinking",
         image:
-          "https://img.icons8.com/?size=160&id=2WKQPwkzVRhB&format=png",
+          "https://img.icons8.com/?size=96&id=23324&format=png",
+      },
+      {
+        name: "Decision Making",
+        image:
+          "https://img.icons8.com/?size=160&id=ATwUL15GNxt8&format=png",
+      },
+      {
+        name: "Stakeholder Management",
+        image:
+          "https://img.icons8.com/?size=160&id=p2j9jImVLu2r&format=png",
       },
     ],
   },
@@ -158,11 +168,6 @@ export const skills = [
         name: "GitHub",
         image:
           "https://img.icons8.com/?size=128&id=52539&format=png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://img.icons8.com/?size=96&id=22813&format=png",
       },
       {
         name: "VS Code",
@@ -186,6 +191,21 @@ export const skills = [
       {
         name: "Big Query",
         image: "https://img.icons8.com/?size=128&id=42848&format=png",
+      },
+      {
+        name: "Tableau",
+        image:
+          "https://img.icons8.com/?size=96&id=9Kvi1p1F0tUo&format=png",
+      },
+      {
+        name: "Power BI",
+        image:
+          "https://img.icons8.com/?size=96&id=3sGOUDo9nJ4k&format=png",
+      },
+      {
+        name: "Looker Studio",
+        image:
+          "https://img.icons8.com/?size=96&id=86E4YHZQawQZ&format=png",
       },
     ],
   },
@@ -367,7 +387,7 @@ export const projects = [
     title: "SuperStore Data Analysis",
     date: "Oct 2023",
     description:
-      "  Analyzed 2015-2018 data to identify top selling sub-categories, revenue drivers, customer trends, and yearly growth.Developed a deep understanding of the Superstore business and gained valuable experience in data analysis and visualization.",
+      "  Analyzed 2015-2018 data to identify top-selling sub-categories, revenue drivers, customer trends, and yearly growth.Developed a deep understanding of the Superstore business and gained valuable experience in data analysis and visualization.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRhr9hB9-eyU_ZjXSOFOVSrUORIop8D2Nug&usqp=CAU",
     tags: [
@@ -381,6 +401,50 @@ export const projects = [
     category: "Python",
     github: "https://github.com/Vigneshwran-K/Superstore_Analysis",
     webapp: "https://github.com/Vigneshwran-K/Superstore_Analysis",
+  },
+  {
+    id: 1,
+    title: "Diamond Price Prediction",
+    date: "Oct 2023",
+    description:
+      "  Engineered a predictive model in Python that achieved a remarkable 2% mean absolute error (MAE) demonstrating precision in estimating diamond prices. Proficiently analysed the dataset, uncovering unexpected patterns, such as a 15% price premium for diamonds with J color and I1 clarity over D color and IF clarity diamonds.",    
+    image:
+      "https://audhiaprilliant.github.io/assets/images/21-0.jpg",
+    tags: [
+      "Python",
+      "Data Cleaning",
+      "Pandas",
+      "Matplotlib",
+      "Plots & charts",
+      "Data Manipulation",
+      "Machine Learning",
+      "Sci-Kit Learn"
+    ],
+    category: "Python",
+    github: "https://github.com/Vigneshwran-K/Diamond-Price-detection",
+    webapp: "https://github.com/Vigneshwran-K/Diamond-Price-detection",
+  },
+  {
+    id: 1,
+    title: "Heart Stroke prediction",
+    date: "Oct 2023",
+    description:
+      "Deployed Python and machine learning algorithms to analyse health data, articulated a strong correlation between hypertension and heart disease, resulting in a 20% increase in stroke risk prediction accuracy. Implemented data analysis and interpretation skills to identify significant and unexpected patterns, such as ahigher stroke risk among non-smokers (10% higher).",    
+    image:
+      "https://www.health.com/thmb/tI-LqcPqQChAMEfU5rV6W6flVUU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Stroke-Heart-Syndrome-fbd89ec8a8b843c7ab38e3f8b083b0cf.jpg",
+    tags: [
+      "Python",
+      "Data Cleaning",
+      "Pandas",
+      "Matplotlib",
+      "Plots & charts",
+      "Data Manipulation",
+      "Machine Learning",
+      "Sci-Kit Learn"
+    ],
+    category: "Python",
+    github: "https://github.com/Vigneshwran-K/Stroke-Prediction-",
+    webapp: "https://github.com/Vigneshwran-K/Stroke-Prediction-",
   },
 ];
 
